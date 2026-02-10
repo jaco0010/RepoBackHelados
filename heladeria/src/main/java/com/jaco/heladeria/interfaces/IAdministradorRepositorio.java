@@ -5,5 +5,5 @@ import com.jaco.heladeria.Modelos.Administrador;
 
 
 @Repository
-public interface IAdministradorRepositorio extends JpaRepository<Administrador, Long> {
+public interface IAdministradorRepositorio extends JpaRepository<Administrador, Integer> {
 }

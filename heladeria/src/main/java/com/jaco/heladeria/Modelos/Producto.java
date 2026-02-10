@@ -1,7 +1,11 @@
 package com.jaco.heladeria.Modelos;
 
-public class Producto {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
+public class Producto {
+@Id
     private int id;
     private String sabor;
     private double precio;

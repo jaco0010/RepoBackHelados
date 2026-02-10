@@ -1,13 +1,17 @@
 package com.jaco.heladeria.Modelos;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
 public class Administrador
 {
+    @Id
+    private int id;
     private String nombre;
     private String email;
     private String contraseña;
     private String telefono;
-    private int id;
     private  String rol;
 
 

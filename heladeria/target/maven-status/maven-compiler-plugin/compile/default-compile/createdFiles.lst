@@ -1,0 +1,11 @@
+com\jaco\heladeria\controllers\HeladoController.class
+com\jaco\heladeria\interfaces\IAdministradorRepositorio.class
+com\jaco\heladeria\interfaces\IProductoRepositorio.class
+com\jaco\heladeria\controllers\UsuarioController.class
+com\jaco\heladeria\HeladeriaApplication.class
+com\jaco\heladeria\Modelos\Usuario.class
+com\jaco\heladeria\Modelos\Administrador.class
+com\jaco\heladeria\repository\IUsuario.class
+com\jaco\heladeria\Modelos\Producto.class
+com\jaco\heladeria\interfaces\IUsuarioRepositorio.class
+com\jaco\heladeria\Service\ServicioUsuario.class
